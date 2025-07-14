@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoletaAPI | Emisión masiva de boletas de honorarios en el SII</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Boleta<span>API</span></div>
+                <ul class="nav-links">
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#how-it-works">Cómo funciona</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <button class="cta-button small">Comenzar</button>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#how-it-works">Cómo funciona</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <button class="cta-button">Comenzar</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Automatiza la emisión de tus boletas de honorarios</h1>
+                <p>Integra nuestra API REST y emite boletas de honorarios electrónicas de forma masiva directamente en el SII, ahorrando tiempo y evitando errores.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button">Comenzar gratis</button>
+                    <button class="secondary-button">Ver documentación</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="Dashboard BoletaAPI" id="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="trusted-by">
+        <div class="container">
+            <p>Confían en nosotros:</p>
+            <div class="logos">
+                <img src="https://via.placeholder.com/120x40" alt="Empresa 1">
+                <img src="https://via.placeholder.com/120x40" alt="Empresa 2">
+                <img src="https://via.placeholder.com/120x40" alt="Empresa 3">
+                <img src="https://via.placeholder.com/120x40" alt="Empresa 4">
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Potentes características para simplificar tu facturación</h2>
+            <p class="section-subtitle">Diseñado para contadores, estudios y empresas que emiten grandes volúmenes de boletas</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Emisión masiva</h3>
+                    <p>Envía lotes de cientos de boletas con una sola solicitud a nuestra API.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Integración automática</h3>
+                    <p>Sincroniza con tus sistemas existentes mediante nuestra API RESTful.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad garantizada</h3>
+                    <p>Cumplimiento con los estándares de seguridad del SII y encriptación de datos.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>Historial completo</h3>
+                    <p>Accede al registro histórico de todas tus emisiones con búsqueda avanzada.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Actualizaciones en tiempo real</h3>
+                    <p>Recibe notificaciones inmediatas sobre el estado de tus boletas.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Soporte técnico</h3>
+                    <p>Equipo especializado disponible para ayudarte con la implementación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>¿Cómo funciona?</h2>
+            <p class="section-subtitle">Integra nuestra API en solo 3 pasos</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Regístrate y obtén tus credenciales</h3>
+                    <p>Crea tu cuenta y accede a tus claves API desde el dashboard.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Integra con tu sistema</h3>
+                    <p>Usa nuestra documentación para conectar tu software con nuestra API.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Envía tus boletas</h3>
+                    <p>Emite boletas individuales o en lote directamente al SII.</p>
+                </div>
+            </div>
+            
+            <div class="code-example">
+                <div class="code-tabs">
+                    <button class="code-tab active" data-lang="curl">cURL</button>
+                    <button class="code-tab" data-lang="javascript">JavaScript</button>
+                    <button class="code-tab" data-lang="python">Python</button>
+                </div>
+                <pre class="code-block"><code class="language-javascript" id="code-snippet">
+// Ejemplo de emisión de boleta
+const response = await fetch('https://api.boletaapi.com/v1/boletas', {
+    method: 'POST',
+    headers: {
+        'Authorization': 'Bearer YOUR_API_KEY',
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        emisor_rut: '76.543.210-8',
+        receptor_rut: '12.345.678-9',
+        monto: 250000,
+        servicio: 'Asesoría contable',
+        fecha: '2023-12-15'
+    })
+});
+
+const data = await response.json();
+console.log(data);
+                </code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Planes flexibles para cada necesidad</h2>
+            <p class="section-subtitle">Elige el plan que mejor se adapte a tu volumen de emisión</p>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Básico</h3>
+                    <div class="price">$19.900<span>/mes</span></div>
+                    <ul class="features-list">
+                        <li>Hasta 100 boletas/mes</li>
+                        <li>Soporte por correo</li>
+                        <li>Historial de 6 meses</li>
+                        <li>API REST</li>
+                    </ul>
+                    <button class="cta-button outline">Comenzar</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Popular</div>
+                    <h3>Profesional</h3>
+                    <div class="price">$49.900<span>/mes</span></div>
+                    <ul class="features-list">
+                        <li>Hasta 500 boletas/mes</li>
+                        <li>Soporte prioritario</li>
+                        <li>Historial de 1 año</li>
+                        <li>API REST + Webhooks</li>
+                        <li>Emisión masiva</li>
+                    </ul>
+                    <button class="cta-button">Comenzar</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Empresa</h3>
+                    <div class="price">$99.900<span>/mes</span></div>
+                    <ul class="features-list">
+                        <li>Boletas ilimitadas</li>
+                        <li>Soporte 24/7</li>
+                        <li>Historial completo</li>
+                        <li>Todas las funciones</li>
+                        <li>Cuentas múltiples</li>
+                        <li>Entrenamiento</li>
+                    </ul>
+                    <button class="cta-button outline">Comenzar</button>
+                </div>
+            </div>
+            
+            <div class="enterprise-contact">
+                <p>¿Necesitas un plan personalizado para tu empresa?</p>
+                <button class="cta-button outline">Contactar ventas</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="quote">"Hemos reducido el tiempo de emisión de boletas en un 90%. La integración fue sencilla y el soporte excelente."</div>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/50" alt="Cliente 1">
+                        <div class="author-info">
+                            <div class="name">Juan Pérez</div>
+                            <div class="position">Gerente Financiero, ContaPlus</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">"La solución perfecta para nuestro estudio con más de 200 clientes. Ahora emitimos todas las boletas en minutos."</div>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/50" alt="Cliente 2">
+                        <div class="author-info">
+                            <div class="name">María González</div>
+                            <div class="position">Socia, González & Asociados</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="quote">"La API es extremadamente confiable y nos ha permitido automatizar completamente nuestro proceso de facturación."</div>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/50" alt="Cliente 3">
+                        <div class="author-info">
+                            <div class="name">Carlos Muñoz</div>
+                            <div class="position">CTO, ServiTech</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Listo para simplificar tu facturación?</h2>
+            <p>Regístrate ahora y obtén 100 emisiones gratis durante tu primer mes.</p>
+            <button class="cta-button large">Comenzar gratis</button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Contacto</h2>
+                <p>¿Tienes preguntas sobre nuestra API o necesitas ayuda con la implementación? Escríbenos.</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="cta-button">Enviar mensaje</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Correo</h4>
+                        <p>soporte@boletaapi.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Teléfono</h4>
+                        <p>+56 2 2345 6789</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Oficina</h4>
+                        <p>Av. Apoquindo 4500, Las Condes, Santiago, Chile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">Boleta<span>API</span></div>
+                    <p>La solución definitiva para la emisión masiva de boletas de honorarios electrónicas.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h4>Producto</h4>
+                        <ul>
+                            <li><a href="#features">Características</a></li>
+                            <li><a href="#pricing">Precios</a></li>
+                            <li><a href="#">Documentación</a></li>
+                            <li><a href="#">Changelog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#">Sobre nosotros</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Carreras</a></li>
+                            <li><a href="#">Prensa</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacidad</a></li>
+                            <li><a href="#">Términos</a></li>
+                            <li><a href="#">Seguridad</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2023 BoletaAPI. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        src="script.js"
+    </script>
+</body>
+</html>
